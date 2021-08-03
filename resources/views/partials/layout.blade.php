@@ -48,7 +48,12 @@
                         <ul class="navbar-nav">
                             <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">Sobre</a></li>
                             <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Skills</a></li>
-                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
+                            @if (count($portfolio) > 0)
+                                <li class="nav-item">
+                                    <a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a>
+                                </li>
+                            @endif
+
                             <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experiência</a>
                             </li>
                             <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contato</a></li>
