@@ -72,6 +72,8 @@ class HomeController extends Controller
     {
         $perfil = Perfil::first();
 
+        $localidade = explode('-', $perfil['endereco']);
+        $perfil['localidade'] = trim($localidade[2]);
         $perfil['idade'] = $this->calcularIdade($perfil['dt_nascimento']);
         $perfil['foto'] = asset('assets/images/' . $perfil['foto']);
         $perfil['whatsapp'] = str_replace(['+', '-', ' '], '', $perfil->telefone);

@@ -24,8 +24,8 @@
                             <div class="col-sm-8">{{ $perfil->telefone }}</div>
                         </div>
                         <div class="row mt-3">
-                            <div class="col-sm-4"><strong class="text-uppercase">Endereço:</strong></div>
-                            <div class="col-sm-8">{{ $perfil->endereco }}</div>
+                            <div class="col-sm-4"><strong class="text-uppercase">Localidade:</strong></div>
+                            <div class="col-sm-8">{{ $perfil->localidade }}</div>
                         </div>
                         @if ($perfil->cnpj)
                             <div class="row mt-3">
