@@ -91,8 +91,8 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="card-body">
-                                        <p class="mb-0"><strong>Endereço</strong></p>
-                                        <p class="pb-2">{{ $perfil->endereco }}</p>
+                                        <p class="mb-0"><strong>Localidade</strong></p>
+                                        <p class="pb-2">{{ $perfil->localidade }}</p>
                                         <p class="mb-0"><strong>Telefone</strong></p>
                                         <p class="pb-2">{{ $perfil->telefone }}</p>
                                         <p class="mb-0"><strong>Email</strong></p>
