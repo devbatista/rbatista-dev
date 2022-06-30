@@ -84,6 +84,8 @@
                     class="credit" href="https://www.devbatista.com" target="_blank">DevBatista</a></p>
         </div>
     </footer>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6073212187927990"
+     crossorigin="anonymous"></script>
     <script src="{{ asset('assets/js/core/jquery.3.2.1.min.js?ver=1.1.0') }}"></script>
     <script src="{{ asset('assets/js/core/popper.min.js?ver=1.1.0') }}"></script>
     <script src="{{ asset('assets/js/core/bootstrap.min.js?ver=1.1.0') }}"></script>
